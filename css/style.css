@@ -552,7 +552,8 @@ h3 {
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 40px;
+  /* padding: 40px; */
+  padding: 72px 24px 24px 24px;
 }
 
 .backdrop:not(.is-open) .modal {
@@ -579,8 +580,17 @@ h3 {
 }
 .modal-open:hover {
   background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
 }
-
+.modal-open:focus {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+}
+.modal-open-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal-title {
   font-weight: 500;
   font-size: 16px;
