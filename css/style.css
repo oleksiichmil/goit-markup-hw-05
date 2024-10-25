@@ -731,7 +731,7 @@ h3 {
 .modal-check:checked + .modal-check-text span {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 .modal-button {
   display: block;
