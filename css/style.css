@@ -687,6 +687,9 @@ h3 {
 }
 
 /* Checkbox */
+.checkbox {
+  margin-bottom: 24px;
+}
 
 .modal-textarea::placeholder {
   font-size: 18px;
@@ -703,7 +706,11 @@ h3 {
   position: relative;
 }
 .modal-check-text span {
-  width: 20px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  /* width: 20px;
   height: 20px;
   border-radius: 6px;
   border: 1px solid rgba(17, 17, 17, 0.14);
@@ -711,9 +718,18 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
+  fill: transparent; */
 }
-
+.checkbox-icon {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+}
 .modal-check:checked + .modal-check-text span {
   background-color: #fd9222;
   border: none;
