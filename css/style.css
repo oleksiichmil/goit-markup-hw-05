@@ -710,7 +710,8 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  /* width: 20px;
+}
+/* width: 20px;
   height: 20px;
   border-radius: 6px;
   border: 1px solid rgba(17, 17, 17, 0.14);
@@ -719,7 +720,7 @@ h3 {
   align-items: center;
   justify-content: center;
   fill: transparent; */
-}
+
 .checkbox-icon {
   width: 16px;
   height: 16px;
@@ -729,6 +730,9 @@ h3 {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 .modal-check:checked + .modal-check-text span {
   background-color: #fd9222;
