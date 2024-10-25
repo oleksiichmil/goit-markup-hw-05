@@ -711,6 +711,9 @@ h3 {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
+.checkbox-text-span {
+  color: #4d5ae5;
+}
 
 .checkbox-icon {
   width: 16px;
@@ -726,7 +729,7 @@ h3 {
   fill: transparent;
 }
 .modal-check:checked + .modal-check-text span {
-  background-color: #fd9222;
+  background-color: #404bbf;
   border: none;
   fill: #ffffff;
 }
