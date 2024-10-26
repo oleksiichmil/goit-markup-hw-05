@@ -521,6 +521,7 @@ h3 {
 }
 .footer-text-subscribe {
   margin-bottom: 16px;
+  margin-left: 80px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -544,9 +545,13 @@ h3 {
   border: none;
   border-radius: 4px;
 }
+.footer-button-icon {
+  margin-left: 16px;
+}
 .footer-form {
   display: flex;
   gap: 24px;
+  margin-left: 80px;
 }
 .footer-input {
   width: 264px;
